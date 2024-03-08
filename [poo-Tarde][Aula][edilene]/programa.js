@@ -16,7 +16,7 @@ for(let i = 0; i< alunos.length;i++){
 
 let aluno1 = {
     nome:'João',
-    cpf:'00000000000', 
+    cpf:'000000000000', 
     nota:10
 }
 let aluno2={ 
