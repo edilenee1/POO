@@ -6,7 +6,7 @@ alunos[4] = 'Gerson'
 
 alunos.push('joaquim');
 
-let.notas  =[10,8,5,7,9,6];
+let notas = [10,8,5,7,9,6];
 
 for(let i = 0; i< alunos.length;i++){
     console.log(`Aluno: ${alunos[i]} -> Nota: ${notas[i]}`);
@@ -61,8 +61,8 @@ aluno1.nome = 'John';
 console.log(aluno1.nome);
 
 //Atividade carros
-let carro1={
-modelo:'altis',
+let carro1 = {
+modelo:'Altis',
 marca:'Toyota corolla',
 ano:'2020',
 quilometragem:'32.369',
@@ -71,12 +71,42 @@ cor:'branca',
 preços:'137.900',
 }
 
-let carro2={
-    modelo:
+let carro2 = {
+    modelo:'Celta',
+    marca:'chavrolet',
+    ano:'2001',
+    quilometragem:'100',
+    potenciaMotor:'1.0',
+    cor:'prata',
+    preços:'9.000',
 }
 
+let carro3 = {
+    modelo:'Ford Ka',
+    marca:'gool',
+    ano:'1999',
+    quilometragem:'130',
+    potenciaMotor:'2.o',
+    cor:'verde',
+    preços:'7.000',
+}
 
+let carro4 = {
+    modelo:'cronos',
+    marca:'fiat',
+    ano:'2019',
+    quilometragem:'120',
+    potenciaMotor:'2.o',
+    cor:'preto',
+    preços:'60.000',
+}
 
-
-
-
+let carro5 = {
+    modelo:'c3',
+    marca:'Citroen',
+    ano:'2013',
+    quilometragem:'170',
+    potenciaMotor:'2.0',
+    cor:'prata',
+    preços:'67.000',
+}
