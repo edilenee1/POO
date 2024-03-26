@@ -1,0 +1,54 @@
+body{
+    background-color: #78800b;
+}
+
+.card{
+    background-color: #100a2b;
+    width: 400px;
+    padding: 20px;
+    margin-bottom: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    border: solid 1px #000000;
+
+    border-radius: 20px;
+}
+.nome{
+    color:  #ffaa00;
+    font-size: 28px;
+    font-weight: 800; /*Aumenta a largura das letras*/
+
+    /* border: solid 1px rgb(7, 24, 108); */
+}
+.armazenamento{
+    color: #8f93f8;
+
+}
+.tela{
+    color: #8f93f8;
+}
+.bateria{
+    color: #8f93f8;
+}
+.processador{
+    color: #8f93f8;
+}
+.ram{
+    color: #8f93f8;
+}
+.cor{
+    color: #8f93f8;
+}
+.preco{
+    color: #00b643;
+font-size: 24px;
+text-align: right;
+font-weight: 700;
+
+/* border: solid 1px #ff0000; */
+}
+img{
+    height: 400px;
+    aspect-ratio: 1/1; /*Aumenta a proporção da imagem*/
+    object-fit: contain; /*Corta a imagem sem distorcer*/
+}
